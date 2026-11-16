@@ -1,0 +1,26 @@
+BITTU AI – PHONE ONLY SETUP
+
+Aapne chuna: JARVIS-style voice assistant + ChatGPT-style chat, aur male/female voice option.
+
+Is ZIP mein installable PWA web-app source hai; APK nahi hai.
+
+PHONE SE INSTALL:
+1) ZIP ko Android phone par extract karein.
+2) Is folder ki files ko HTTPS static hosting par publish karein (hosting account ki zarurat ho sakti hai). Upload ke baad aapko https://... link milega.
+3) Android Chrome mein woh link kholein.
+4) Chrome menu (⋮) > Install app ya Add to Home screen chunein.
+5) Home screen par Bittu AI icon se kholein.
+
+FEATURES:
+- Hindi/English chat UI
+- Speech-to-text (Chrome/browser support aur mic permission par nirbhar)
+- Text-to-speech voice selector: Auto / female / male (device voices par nirbhar; gender labels har phone par available nahi hote)
+- Google search, time/date, dialer shortcut, alarm intent shortcut
+- Optional OpenAI-compatible AI endpoint settings
+
+IMPORTANT:
+- Bina AI provider endpoint/model/key ke yeh basic local assistant hai, ChatGPT-level AI nahi.
+- API key browser local storage mein save hoti hai. Shared/public phone par key save na karein.
+- Real AI endpoint par messages provider ko bheje jaate hain. Provider ki privacy/charges/limits alag ho sakti hain.
+- Alarm shortcut har Android phone par kaam kare, zaroori nahi; Clock app se manually alarm set kiya ja sakta hai.
+- Voice selection available voices par nirbhar hai. Android Settings > Text-to-speech output mein voices install/manage ki ja sakti hain.
